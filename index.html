@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>linkio</title> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Fabio Compagnoni">
+        <!--css-->
+        <link rel="stylesheet" href="https://linkio.altervista.org/src/css/home.css">
+        <!--<link rel="stylesheet" href="src/css/home.css">
+        <link rel="stylesheet" href="src/css/footer.css">-->
+        <link rel="stylesheet" href="https://linkio.altervista.org/src/css/footer.css">
+        <!--font-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway">
+        <!--animate.css library-->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+        />
+        <!--font awesome-->
+        <script src="https://kit.fontawesome.com/3a50fc7a13.js" crossorigin="anonymous"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127786864-2"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-127786864-2');
+        </script>
+
+    </head>
+    <body>
+        <main id="input">
+            <h1 style="font-family:'Courier New', Courier, monospace;">linkio</h1>
+            <form action="https://linkio.altervista.org/creaLink.php">
+                <div id="contInp" class="animate__animated animate__backInDown">
+                    <input name="url" type="url" id="casella" required placeholder="Inserisci l'URL">
+                    <button type="submit">Crea</button>
+                </div>
+            </form>
+            <div class="spiegazione">
+                <section id="servizio" class="pezz animate__animated animate__fadeInLeft animate__delay-2s">
+                    <h2>Il Servizio</h2>
+                    <p>
+                        <b>linkio.it è un servizio italiano, completamente <b>Open Source</b>, sviluppato da Fabio Compagnoni per <b>smanettone.eu</b><br/>    
+                    </p>
+                </section> 
+                <section id="funz" class="pezz animate__animated animate__fadeInRight animate__delay-3s">
+                    <h2>Funzionalità</h2>
+                    <p>
+                        Il servizio permette di generare un <b>short url</b> (url corto), dato un qualsiasi link.<br/>
+                        Il link generato, saraò poi più facile da ricordare o da scrivere.
+                    </p>
+                </section>
+                <section id="vantaggi" class="pezz animate__animated animate__fadeInLeft animate__delay-4s">
+                    <h2>Vantaggi</h2>
+                    <p>
+                        Rispetto ad un qualsiasi concorrente, il nostro è completamente gratis, open source e soprattutto <b>NON LUCRIAMO CON I VOSTRI DATI</b><br/>
+                        I vostri dati, sono salvati in un database MySql situato in Italia e saranno sempre custoditi.
+                    </p>
+                </section>
+                <section id="affidabilita" class="pezz animate__animated animate__fadeInRight animate__delay-5s">
+                    <h2>Affidabilità</h2>
+                    <p>
+                        Se sarà necessario che il <b>servizio</b> venga <b>sospeso</b> per manutenzione, verrà <b>comunicato</b> su questo sito <b>24h prima</b>
+                    </p>
+                </section>
+            </div>
+        </main>
+        <div class="pulitore"></div>
+    </body>
+    <footer class="animate__animated animate__bounceInDown animate__delay-10s">
+        <h1 style="color:#1f618d">linkio</h1>
+        <p>Un sito di <a href="https://smanettone.eu/smanettoni/fabio.php" target="_blank">Fabio Compagnoni</a> per <a href="https://smanettone.eu/" target="_blank">SMANETTONE.EU</a></p>
+        <div class="contLog">
+            <div>
+                <a href="https://github.com/fabiocompagnoni/linkio" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <div>
+                <a href="mailto:fabiocompagnoni@smanettone.eu"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="valid">
+            <h3>Pagina verificata dal W3C</h3>
+            <span><img src="https://linkio.altervista.org/src/img/valid_html5.png"></span>
+            <span><img src="https://linkio.altervista.org/src/img/valid_css3.png"></span>
+        </div>
+        <div class="cl"></div>
+
+    </footer>
+</html>

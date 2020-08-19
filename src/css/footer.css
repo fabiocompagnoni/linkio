@@ -1,0 +1,53 @@
+footer
+{
+    background:white;
+    padding:1%;
+}
+.pulitore
+{
+    height:5%;
+}
+#github
+{
+    background:#d0d3d4;
+    color:black;
+    padding:5px;
+    border-radius:10px;
+    font-size:24px;
+}
+
+footer a
+{
+    text-decoration:none;
+    color:#1f618d;
+}
+#github a
+{
+    color:black;
+}
+.contLog div
+{
+    display:inline-block;
+}
+.contLog
+{
+    font-size:24px;
+}
+.contLog a
+{
+    color:#1abc9c;
+}
+.contLog a:hover
+{
+    color:#148f77;
+}
+.valid
+{
+    text-align:right;
+    float:right;
+}
+.cl
+{
+    height:3%;
+    clear:right;
+}
